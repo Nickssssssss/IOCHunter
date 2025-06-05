@@ -1,0 +1,24 @@
+# Ambientes virtuais
+.venv/
+
+# Python
+*.pyc
+__pycache__/
+
+# Configs e arquivos sensíveis
+.env
+*.log
+history.json
+
+# Base de dados e arquivos binários
+db/
+GeoLite2-City.mmdb
+
+# Sistema/Editor
+.DS_Store
+.vscode/
+
+# Outros arquivos temporários
+*.swp
+*.bak
+*.tmp
