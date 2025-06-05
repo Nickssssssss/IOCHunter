@@ -430,7 +430,7 @@ if st.session_state.analyzed_results:
                             "info": [f"{geo_info.get('city', 'N/A')}, {geo_info.get('country', 'N/A')}"]
                         })
                         
-                        fig = px.scatter_mapbox(
+                        fig = px.scatter_map(
                             df_map, 
                             lat="lat", 
                             lon="lon", 
@@ -491,7 +491,7 @@ if st.session_state.analyzed_results:
                                         "info": [f"{geo_info.get('city', 'N/A')}, {geo_info.get('country', 'N/A')}"]
                                     })
                                     
-                                    fig = px.scatter_mapbox(
+                                    fig = px.scatter_map(
                                         df_map, 
                                         lat="lat", 
                                         lon="lon", 
@@ -560,7 +560,7 @@ if st.session_state.analyzed_results:
                                         "info": [f"{geo_info.get('city', 'N/A')}, {geo_info.get('country', 'N/A')}"]
                                     })
                                     
-                                    fig = px.scatter_mapbox(
+                                    fig = px.scatter_map(
                                         df_map, 
                                         lat="lat", 
                                         lon="lon", 

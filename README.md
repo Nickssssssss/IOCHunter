@@ -196,6 +196,16 @@ Além disso, todas as fontes são consultadas com foco em passividade, evitando 
 - Recomenda-se o uso responsável e ético, respeitando as políticas das APIs utilizadas.
 - Para dúvidas ou sugestões, consulte o código-fonte ou abra uma issue no repositório.
 
+# Security Notice
+
+Este projeto foi desenvolvido para fins **educacionais e pessoais**. Não é mantido com foco em produção ou uso comercial.
+
+- Nenhum suporte oficial é oferecido.
+- Não aceitamos relatórios de vulnerabilidade.
+- O uso de chaves de API e credenciais deve ser feito de forma segura pelo usuário final.
+
+**Uso para fins maliciosos é estritamente proibido.**
+
 ---
 
 ## 👨‍💻 Contribuição
